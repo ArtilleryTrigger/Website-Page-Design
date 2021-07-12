@@ -126,3 +126,21 @@ footer{
 .footer{
     margin-bottom: 0;
 }
+.services{
+    float: left;
+    width: 60%;
+    margin-right: 25px;
+}
+.service{
+    padding: 20px;
+    background-color: #e6e6e6;
+    border: 1px solid darkgray;
+    margin-bottom: 5px;
+}
+.wwd input{
+    width: 370px;
+    margin: 5px 0;
+}
+@media (min-width: 768px){
+    
+}
