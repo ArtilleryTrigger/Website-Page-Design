@@ -21,6 +21,7 @@ header h1{
 }
 span{
     color: rgb(143, 9, 155);
+    font-weight: bold;
 }
 nav{
     float: right;
@@ -38,6 +39,7 @@ li a{
 }
 a:hover{
     color:rgb(143, 9, 155);
+    font-weight: bold;
 }
 .hero{
     background-image: url(./img/showcase.jpg);
@@ -141,6 +143,10 @@ footer{
     width: 370px;
     margin: 5px 0;
 }
-@media (min-width: 768px){
-    
+@media (max-width: 768px){
+    header h1, nav{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
 }
