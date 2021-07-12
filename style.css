@@ -149,4 +149,39 @@ footer{
         text-align: center;
         width: 100%;
     }
+    .newsletter p{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .newsletter form{
+        float: none;
+        text-align: center;
+    }
+    .box{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .about--us{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .wwd{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .services{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .wwd input{
+        width: 100%;
+    }
+    #button{
+        width: 100%;
+    }
 }
